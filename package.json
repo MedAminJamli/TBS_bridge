@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-hub",
+  "version": "1.0.0",
+  "description": "AI Agent Hub — Chat with 4 AI agents powered by n8n workflows",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.1.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
